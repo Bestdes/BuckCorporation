@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #000;
+  color: #555;
+  font-family: "EB Garamond", serif, Arial;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+/* --------------------------------- */
+/* Reusable Components */
+/* --------------------------------- */
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "EB Garamond", serif;
+}
+
+h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 500%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+/* --------------------------------- */
+/* Header Components */
+/* --------------------------------- */
+
+header {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.699), rgb(0, 0, 0, 0.699)),
+    url(/images/buckCorporation.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.jumbotronStyle {
+  text-align: center;
+  /* width: 75%; */
+  background-color: transparent;
+}
+
+/* --------------------------------- */
+/* Navigation Components */
+/* --------------------------------- */
+
+.main-nav {
+  text-align: center;
+  list-style-image: element();
+}
+
+.main-nav li {
+  display: inline-block;
+}
+
+.main-nav li a {
+  color: #fff;
+  font-family: "Quattrocento", serif;
+  letter-spacing: 2px;
+}
+
+.navTitle {
+  text-transform: uppercase;
+}
+
+hr {
+  width: 75%;
+  background-color: #fff;
+}
+
+/* --------------------------------- */
+/* BlockQuote Components */
+/* --------------------------------- */
+
+blockquote {
+  display: inline-block;
+  text-align: center;
+  max-width: 25%;
+  color: #fff;
+  font-style: italic;
+}
+
+.quoteStyle {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+  border-radius: 5%;
+}
+
+/* --------------------------------- */
+/* Footer Components */
+/* --------------------------------- */
+
+footer {
+  background-color: #000;
+  border-top: none;
+}
